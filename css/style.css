@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(“../images/pidgeon-background.jpg”);
+}
+
+h1 {
+
+	font-size: 2em;
+	line-height: 1.5;
+	color: #c12258;
+}
+
+main {
+
+	color: black; 
+	font-size: 18px;
+	padding-top: 15px;
+
+
+}
+
+td:focus {
+
+	border: 1px solid red;
+	
+
+
+}
+
+.datacite a {
+
+	font-size: 18px;
+	color: #c12258;
+	text-decoration: underline;
+
+}
+
+
+
+table {
+
+	border: 2px solid black;
+	border-radius: 10px;
+	border-collapse: separate;
+
+}
+
+
+.colhead {
+
+	min-width: 150px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background-color: #7e0830;
+	text-transform: uppercase;
+
+
+}
+
+.colhead:first-child {
+
+	border-top-left-radius: 10px;
+}
+
+.colhead:last-child {
+
+	border-top-right-radius: 10px;
+}
+
+
+th {
+
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 15px;
+}
+
+td  {
+
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 15px;
+}
+
+tr:last-child td {
+
+	border-bottom: none;
+
+}
+
+tr:last-child th {
+
+	border-bottom: none;
+
+}
+
+
+
+
+tr:nth-child(2n+2) {
+
+	background: #dddddd;
+}
+
+tr:hover {
+
+	background-color: #fab9cf;
+}
+
+footer {
+
+	color: white;
+	background-color: black;
+	min-height: 60px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+
+}
+
+
+
+
+
+}
